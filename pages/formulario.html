@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+ 
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <br>
+
+     <header>
+            <nav>
+                 <a href="../index.html" class="class-index">Inicio</a>
+                 <a href="../pages/productos.html"  class="class-index" ><strong>Productos</strong></a>
+                 <a href="../pages/servicios.html" class="class-index"><strong>Servicios</strong></a>
+                 <a href="../pages/reseñas.html" class="class-index"><strong>Reseñas</strong></a>
+                 <a href="../pages/contacto.html" class="class-index"><strong>Contacto</strong></a>
+            </nav>
+            <br>
+        </header>
+
+    <form class="estilo-forma"
+        action="https://formspree.io/f/xdapejaq"
+        method="POST"
+>     <div>
+        <label for="nombre"><h2>Nombre :</h2></label>
+        <input type="text" class="estilo-input" id="nombre" name="nombre">
+      </div>
+
+        <br><br>
+
+        <label for="email"><h2>Email :</h2></label>
+        <input type="text" class="estilo-input" id="email" name="email">
+       
+        <br><br>
+
+        <label>
+          <h2>Mensaje :</h2>
+          <textarea class="estilo-input" name="message"></textarea>
+        </label>
+        
+        <br><br>
+        
+        <button type="submit">Send</button>
+        <button type="reset">Cancelar</button>
+    
+      </form>
+
+    
+</body>
+
+</html>

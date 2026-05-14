@@ -1,0 +1,554 @@
+
+
+/* Estilos CSS para Archivo contactos.html se encuentra en la
+   misma página de contactos.html*/
+
+/*Selector Universal.  Aplica a todas los archivos html*/
+
+*{
+   margin: 1%;  
+   padding: 0%;
+   box-sizing:border-box;
+}
+
+/* -------- HEADER ----------*/
+/* Se colocó un "class" en "header" como "head-index" */
+.head-index {
+        
+  width:100%;    
+  height: auto;
+  font: 140% "Tangerine", arial, helvetica;
+  background-color:rgba(109, 112, 138,0.2);
+  color: blue;
+
+}
+
+.LogoEN{
+  background-color:  rgba(251, 251, 253, 0.5);
+}
+
+.LogoTítulo{
+  text-align: start;
+  font-weight: bolder;
+}
+
+.img-lamp{
+    display: flex;    
+    justify-content: left;   
+    width: 15%;      
+    height:15%;
+}
+
+
+/*BODY, aplica a todos los archivos html*/
+/*Se colocó una imagen de fondo en BODY */
+
+body{
+    
+    text-align: center;
+    width: 100% ;
+    height:auto;
+    background-color: rgba(251, 251, 253, 0.5);
+    color: blue; 
+    background-image: url('/imagenes/gabinetes-cajaspaso.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size:auto; 
+    background-attachment:initial;
+}
+
+/* ID  index.html */
+.class-index{
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: space-between;
+    word-spacing: 20px;
+
+}
+
+#encabezado{
+    width: 100%;
+    height: auto;    
+    text-align: center;
+    font-family: "Tangerine", arial, helvetica;
+    font-size: 250%;
+    color:blue;
+    background-color: rgba(109, 112, 138,0.2);
+}
+
+
+.nav-indice{
+        height: 50px;
+        font-size: x-large;
+        text-align:center;
+        color: blue;
+        background-color:rgba(109, 112, 138,0.2);
+
+}
+
+/*class  index.html */
+
+.h3-index{
+        background-color: rgba(109, 112, 138,0.2);
+        font-size: x-large;
+}
+
+.con-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        height: auto;
+        width:100%;
+        background-color: rgba(150, 150, 150, 0.8);
+}
+
+.vista1{
+
+        flex: 1 1;
+        width:50%;
+        height: auto;
+}
+
+.vista2{
+
+        flex: 1 1;
+        width:80%;
+        height: auto;
+}
+
+.vista3{
+
+        flex: 1 1;
+        width:80%;
+        height: auto;
+}
+
+.p-index{
+        font-size: x-large;
+        background-color:rgba(109, 112, 138,0.5);
+}
+
+.con-videos{
+        display:flex;
+        flex-direction: row;
+        flex:1 1;
+        background-color: rgba(109, 112, 138,0.2);
+}
+
+.video1{
+         max-width: 50%;
+         align-items: center;
+}
+
+
+.con-extvideos{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        height: auto;
+        background-color:rgba(109, 112, 138,0.2);
+}
+
+footer{
+    text-align:left;    
+    font: 60%"arial", helvetica;
+    background-color: rgba(109, 112, 138,0.2);
+    color: blue; 
+}
+.Caption-form{
+            display: flex;
+            gap: 20px;
+    }
+
+a:hover{
+        color: rgb(241, 10, 10);
+        cursor:grab;
+
+}
+
+.retorno-index{
+        margin-top: 5%;
+        margin-left: 30px; ;
+        padding: 2%;
+        cursor:auto;
+}
+
+/* Styles CSS para Contacto.html se encuentra dentro del 
+   mismo archivo */
+
+
+/* Iconos usados en index.html */
+
+.icono-email {
+        display: flex;
+        align-items:center; /* Alinea verticalmente */
+        gap: 8px; /* Espacio entre icono y texto */
+}
+
+.icono-whatsapp {
+        display: flex;
+        align-items:center;
+        gap: 4px;        
+}
+
+.icono-whatsapp img{
+        max-width: 10%; /* Ajusta el tamaño de la imagen */
+        height: auto;
+}
+
+.icono-email {
+        display: flex;
+        align-items:center; /* Alinea verticalmente */
+        gap: 4px; /* Espacio entre icono y texto */
+}
+
+
+.icono-email img{
+        max-width: 20%; /* Ajusta el tamaño de la imagen */
+        height: auto;
+}
+
+
+/* Separar del margen símbolo de email index.html */
+
+.send-separar{
+    margin: 2%;
+}
+
+.icono-facebook{
+   display: flex;
+   align-items: center; /* Alineación vertical */
+   gap: 4px;           /* Espacio entre icono y texto */
+}
+
+.icono-facebook img{
+   max-width: 10%;     /* Ajusta el tamaño de la imagen */
+   height: auto;
+}
+
+
+/* Estilos para Formulario.html*/
+
+.estilo-forma{
+      
+        background-color: rgb(143, 204, 204);
+}
+
+.estilo-input{
+        font-size: large;
+        background-color: rgb(207, 239, 239);
+        color:rgb(57, 3, 194);
+
+}
+
+
+/* ----- PAGINA Servicios.html formato Tablas---- */
+
+
+table{
+        width: 100%;
+        height: auto;
+        font-size: x-large;
+        border-spacing:40%;
+        margin-right: auto;
+        margin-right: auto;
+        
+}
+
+th {
+  background-color:rgba(177, 202, 233,0.8);
+
+}
+thead {
+  background-color:rgba(177, 202, 223,0.8);
+  text-align: center;
+  font-weight: bold;
+
+}
+
+tbody{
+        background-color: rgba(89, 89, 223, 0.8);
+        color:white;
+
+}
+
+.servicios{
+        font-size: xx-large;
+        font-weight: bold;
+
+}
+
+
+/* ----- PAGINA Productos.html ----- */
+
+
+.producto-ul {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      list-style: none;
+      font-weight: bolder;
+      background-color: rgba(87, 211, 211, 0.7);
+      justify-content: center;
+      font-size: x-large;
+}
+
+.h-prod{
+      font-size: 40px;
+}
+
+.prod-tarjetas {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: rgba(128, 156, 200, 0.8);
+  gap: 20px;
+  width:  100%;
+  height: 100%;
+}
+
+.prod-tarjetas{
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: rgba(176, 192, 209, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(162, 182, 225, 0.7);
+}
+
+.prod-img{
+  width: 40%;
+  height: auto;
+  
+}
+
+.img-contenido{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.tarjeta-titulo {
+    font-size: 2rem;
+  }
+
+.tarjeta-desc {
+    font-size: 1.5rem;
+  }
+
+.tarjeta-button {
+    background-color: #193d65;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.tarjeta-button:hover{
+    background-color: rgba(163, 21, 159, 0.5);
+}
+
+
+/* ----- PAGINA Reseñas.html formato GRID ------- */
+
+
+body {
+  font-family: "Tangerine", sans-serif;
+  font-size: 12px;  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+      'header'
+      'menu'
+      'cables'
+      'fichas'
+      'termomagneticas'
+      'diferenciales'
+      'soportecables'
+      'lamp'
+      'footer2';
+  background-color: white;
+  gap: 10px;
+}
+
+.header {
+  grid-area: header;
+  background-color: rgba(141, 192, 228,0.6);
+  font-weight: bolder;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header > h1 {
+  font-size: 40px;
+}
+
+.menu {
+  display: flex;  
+  justify-self: center;
+  background-color: blue; 
+  border-radius: 5%; 
+  width: 40%;
+  height: fit-content;
+  grid-area: menu;
+}
+
+.menu ul {
+  list-style-type:none;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:small;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: white;
+  color: blue;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.cables {
+  grid-area: cables;
+  background-color: rgba(29, 29, 229, 0.3);
+}
+
+.cables > h1 {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+.cables > p {
+  margin-bottom: 7px;
+  font-family: "Arial", Helvetica, sans-serif;
+  text-align: left;
+}
+
+.fichas {
+  grid-area: fichas;
+  background-color: rgba(153, 32, 193, 0.3);
+}
+
+.fichas > h1 {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+.fichas > p {
+  margin-bottom: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.termag {
+  grid-area: termomagneticas;
+  background-color: rgba(27, 129, 193, 0.3);
+}
+
+.termag > h1 {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+.termag > p {
+  margin-bottom: 7px;
+  font-family: "Arial", Helvetica, sans-serif;
+  text-align: left;
+}
+
+.diferen {
+  grid-area: diferenciales; 
+  background-color:rgba(87, 87, 93, 0.3);
+}
+
+.diferen > h1 {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+.diferen > p {
+  margin-bottom: 7px;
+  font-family: "Arial", Helvetica, sans-serif;
+  text-align: left;
+}
+
+.soportecables {
+  grid-area:auto;
+  background-color: rgba(27, 129, 193, 0.3);
+}
+
+.soportecables > h1 {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+.soportecables > p {
+  margin-bottom: 7px;
+  font-family: "Arial", Helvetica, sans-serif;
+  text-align: left;
+}
+
+
+.lamp {
+  grid-area:auto;
+  background-color: rgba(160, 27, 193, 0.3);
+}
+
+.lamp > h1 {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+.lamp > p {
+  margin-bottom: 7px;
+  font-family: "Arial", Helvetica, sans-serif;
+  text-align: left;
+}
+
+.al-menu{
+  font-family: "arial", sans-serif;
+  font-size:small;
+}
+
+/* ----- FOOTER ----- */
+
+.footer2 {
+  grid-area: footer2; 
+  background-color:rgba(87, 87, 93, 0.3);
+}
+
+.footer2 > h1 {
+
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+
+
+.contact-a {
+  margin-bottom: 7px;
+  font-family: "Arial", Helvetica, sans-serif;
+  text-align: left;
+  
+}
