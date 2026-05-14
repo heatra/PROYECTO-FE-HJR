@@ -1,0 +1,127 @@
+
+<!--  
+
+CORRECCIONES:
+
+h Activar el github pages: Es necesario ver que tu sitio este desplegado en un host real y 
+que la navegacion funcione.
+
+Estilos: utilizamos unicamente estilos en archivo externo:
+No es recomendable para nada utilizar 
+estilos en linea o en etiquetas "style" dentro del HTML ❌
+
+Navegacion: algunas paginas tienen links en su nav. 
+Otras paginas solo tienen lista sin links ❌
+La barra de navegacion debe ser consistente. 
+No podemos ver que en index tenemos 5 links y 
+que cuando vamos a la pagina de contacto hay solo 1 link a index ❌
+Si tengo 3 paginas, las 3 paginas deben tener la misma cantidad de links y en el mismo orden.
+
+
+h README: este archivo NO debe aparecer en la barra de navegacion.
+
+h Nomenclatura: los archivos deben tener nombres en minuscula. 
+
+Sugerencia: no dejar tantos saltos de linea entre etiquetas. 
+
+Se esperan todas las correcciones en la entrega final y el despliegue 
+del sitio en github pages. 
+Si este no esta en la entrega final, no se podrá corregir y la entrega 
+quedara desaprobada.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Curso Front-End</title>
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <header class="head-index">
+        <div class="LogoEN">  
+            <figure>
+                <img src="./imagenes/LámparasColores.jpg" width="50" height="50" alt="Lámparas de Colores" class="img-lamp">
+                <figcaption class="LogoTítulo">Lámparas</figcaption>
+            </figure>
+            </div>
+     
+        <h1 id="encabezado"><strong>Eléctrica del Norte</strong></h1>
+        <h2>Componentes de uso en instalaciones eléctricas</h2>
+    
+        <br>
+        <nav class="nav-indice">
+            <ul>
+                <a href="index.html"><strong>Inicio</strong></a>
+                <a href="./pages/productos.html"><strong>Productos</strong></a>
+                <a href="./pages/servicios.html"><strong>Servicios</strong></a>
+                <a href="./pages/reseñas.html"><strong>Reseñas</strong></a>
+                <a href="./pages/contacto.html"><strong>Contacto</strong></a>
+            </ul>
+        </nav>
+    </header>
+  
+    <br>
+
+    <main>
+            <h3  class="h3-index"><strong>Presentación Productos comercializados</strong></h3>
+            <br>        
+        <section class="con-img">
+            <figure>
+                <img src="./imagenes/cables.png" width="100" height="100" alt="Cables" class="vista1">
+                <figcaption><strong><h2>Conductores</h2></strong></figcaption>
+            </figure>
+            <br>
+            <figure>
+                <img src="./imagenes/fichas.png" width="100" height="100" alt="Fichas" class="vista2">
+                <figcaption><strong><h2>Fichas varias</h2></strong></figcaption>
+            </figure>
+            <br>
+            <figure>
+                <img src="./imagenes/termicas-diferenciales.png"  width="100"  height="100" alt="Térmicas" class="vista3">
+                <figcaption><strong><h2>Térmicas y diferenciales</h2></strong></figcaption>
+            </figure>
+       
+    </main>
+
+<!-- ########### FOOTER ###########-->    
+
+    <footer>
+        <br>
+        <p>_________________________________________________</p>
+        <h2>Los derechos corresponden a Electrica del Norte SRL</h2>
+            
+           <div class="icono-whatsapp">
+                <img src="./iconos/WhatsApp1.jpg"  width="50" height="50" alt="WhatsApp"> 
+                <h2>+54 11 3169 2520</h2>
+           </div> 
+        
+            <div class="icono-email">
+                <img src="./iconos/email-send.png"  width="50" height="50" alt="Icono Send email">
+                <h2>heatra@hotmail.com</h2>
+            </div>
+
+            <div class="icono-facebook">
+                <img src="./iconos/Facebook.png" width="50" height="50"   alt="Icono Facebook">
+                <h2>hector.re.7</h2>
+            </div>
+            
+            <div>
+               <figure class="Caption-form">
+                    <img src="./iconos/Formulario1.jpg"  alt="Contacto" width="50" height="50">
+                    <a href="./pages/Formulario.html"><h3>Formulario</h3></a>    
+                </figure>
+            </div>
+
+    </footer>
+
+</body>
+
+</html>
