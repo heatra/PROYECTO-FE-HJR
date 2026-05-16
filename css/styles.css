@@ -50,7 +50,7 @@ body{
     height:auto;
     background-color: rgba(251, 251, 253, 0.5);
     color: blue; 
-    background-image: url('/imagenes/gabinetes-cajaspaso.png');
+    background-image: url('../imagenes/gabinetes-cajaspaso.png');
     background-repeat:no-repeat;
     background-position: center center;
     background-size:auto; 
@@ -78,14 +78,24 @@ body{
 
 
 .nav-indice{
-        height: 50px;
+        border: 4vw solid #6b93c0;
+        padding:0.5vw;
+        justify-content: center;
+        align-items:center;
+        border-radius: 8px;
         font-size: x-large;
-        text-align:center;
         color: blue;
         background-color:rgba(109, 112, 138,0.2);
-
 }
 
+.nav-indice ul{
+      display: contents;
+      list-style: none;
+      margin:0;
+      padding:0;
+      gap:0.5vw;
+
+}
 /*class  index.html */
 
 .h3-index{
@@ -170,7 +180,16 @@ a:hover{
 }
 
 .retorno-index{
-        margin-top: 5%;
+        border: 4vw solid #6b93c0;
+        padding:0.5vw;
+        justify-content: center;
+        align-items:center;
+        border-radius: 8px;
+        font-size: x-large;
+        color: blue;
+        background-color:rgba(109, 112, 138,0.2);
+
+        margin-top:10%;
         margin-left: 30px; ;
         padding: 2%;
         cursor:auto;
@@ -554,7 +573,11 @@ body {
 }
 
 
+/*--------------------------------------- */
+
 /* STYLES para archivo contacto.html */
+
+/*--------------------------------------- */
 
     body{
         background-color: rgba(87, 234, 239, 0.3);
