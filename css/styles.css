@@ -39,12 +39,10 @@
     height:15%;
 }
 
-
 /*BODY, aplica a todos los archivos html*/
 /*Se colocó una imagen de fondo en BODY */
 
 body{
-    
     text-align: center;
     width: 100% ;
     height:auto;
@@ -71,7 +69,7 @@ body{
     height: auto;    
     text-align: center;
     font-family: "Tangerine", arial, helvetica;
-    font-size: 250%;
+    font-size: 170%;
     color:blue;
     background-color: rgba(109, 112, 138,0.2);
 }
