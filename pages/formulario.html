@@ -18,8 +18,8 @@
     <br>
 
      <header>
-            <nav>
-                 <a href="../index.html" class="class-index">Inicio</a>
+            <nav class="nav-indice">
+                 <a href="../index.html" class="class-index"><strong>Inicio</strong></a>
                  <a href="../pages/productos.html"  class="class-index" ><strong>Productos</strong></a>
                  <a href="../pages/servicios.html" class="class-index"><strong>Servicios</strong></a>
                  <a href="../pages/reseñas.html" class="class-index"><strong>Reseñas</strong></a>
@@ -29,31 +29,33 @@
         </header>
 
     <form class="estilo-forma"
-        action="https://formspree.io/f/xdapejaq"
-        method="POST"
->     <div>
-        <label for="nombre"><h2>Nombre :</h2></label>
+        action="https://formspree.io/f/xdapejaq" method="POST">
+      
+      
+>     <div class="form-horizontal">
+        <label for="nombre"><h2>Nombre:</h2></label>
         <input type="text" class="estilo-input" id="nombre" name="nombre">
       </div>
 
-        <br><br>
-
-        <label for="email"><h2>Email :</h2></label>
+      <div class="form-horizontal">
+        <label for="email"><h2>Email:   </h2></label>
         <input type="text" class="estilo-input" id="email" name="email">
-       
-        <br><br>
+      </div>
 
-        <label>
-          <h2>Mensaje :</h2>
+      <div class="form-horizontal">                  
+        <label for="mensaje"><h2>Mensaje:</h2></label>
           <textarea class="estilo-input" name="message"></textarea>
-        </label>
+      </div>  
         
-        <br><br>
-        
+        <br>
+
         <button type="submit">Send</button>
         <button type="reset">Cancelar</button>
+        
+        <br><br>
     
-      </form>
+
+    </form> 
 
     
 </body>
